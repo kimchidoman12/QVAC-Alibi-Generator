@@ -1,0 +1,25 @@
+{
+  "name": "qvac-alibi-generator",
+  "version": "1.0.0",
+  "description": "Type what you're late for or missed and an on-device AI writes a playful, obviously-a-joke alibi, with a deterministic believability meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
